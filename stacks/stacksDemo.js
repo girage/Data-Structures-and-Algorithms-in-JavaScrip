@@ -1,4 +1,4 @@
-let lettres = [];
+let letters = [];
 
 // let word= 'racacar';
 
@@ -6,17 +6,16 @@ let word = 'tadtep';
 
 let rword = '';
 
-
-for (let index = 0; index < word.length; index++) {
-  lettres.push(word[index]);
-
-  // console.log(`lettres: ${index}, ${lettres}`);
+for (const w of word) {
+  letters.push(w);
+  console.log(`letters: ${w}, ${letters}`);
 };
 
 for (let index = 0; index < word.length; index++) {
-  rword += lettres.pop();
+  rword += letters.pop();
   console.log(rword);
 }
+
 
 if (rword === word) {
   console.log(`${word} is palindrome`);
