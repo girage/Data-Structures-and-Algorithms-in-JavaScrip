@@ -1,2 +1,2 @@
-# Data-Structures-and-Algorithms-in-JavaScrip
+# Data-Structures-and-Algorithms-in-JavaScript
  
