@@ -75,6 +75,6 @@ ht.add('fido', 'dog');
 ht.add('rex', 'dinosour');
 ht.add('tux', 'penguin');
 // console.log(ht);
-console.log(ht.lookup('tux'));
+// console.log(ht.lookup('tux'));
 
 ht.print();
